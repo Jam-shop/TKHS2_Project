@@ -1,0 +1,36 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assam Religion Data Map 1991</title>
+    <!-- Leaflet CSS for styling the map -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <style>
+        #map {
+            width: 100%;
+            height: 50vw;
+        }
+
+        .leaflet-pie-chart-icon {
+            border: 1px solid black;
+            /* Temporary border for visibility */
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2>1991 Religion-wise Population Data of Assam Districts</h2>
+    <div id="map"></div>
+
+    <!-- Leaflet JS library -->
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <!-- Include Chart.js library -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <script src="./districts.js"></script>
+
+</body>
+
+</html>
